@@ -1,0 +1,150 @@
+.hero-section-details {
+    background: #F1F3FF;
+    height: 250px;
+  }
+  .find-result-border-details {
+    width: 90%;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    margin: auto;
+    margin-top: -60px;
+    padding: 0 15px;
+  }
+  .find-result-border-details h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 15px;
+  }
+  .find-result-form-details {
+    display: flex;
+    padding-left: 0;
+  }
+
+  .find-result-form-details .form {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .form-border.details {
+    padding: 10px;
+  }
+  .form-label.details {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+  }
+  
+  .form-control.details {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+  }
+  
+  .form-select.details {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+  }
+  .car-detail {
+    padding-top: 40px;
+  }
+  
+  .car-detail-border {
+    width: 90%;
+    margin: auto;
+  }
+
+  
+  .package-desc h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding: 20px 0 10px 20px;
+  }
+  
+  .package-desc ul {
+    list-style: disc;
+  }
+  
+  .package-desc li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 175%;
+    color: #8A8A8A;
+    padding-bottom: 15px;
+    margin-left: 30px;
+  }
+  
+  .card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+  }
+  
+  .car-detail img {
+    padding: 50px 30px;
+  }
+  
+  .card-body {
+    padding: 0 20px;
+  }
+  
+  .card-body h5 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding: 4px 0 5px;
+    margin: 0;
+  }
+  
+  .card-body ul {
+    display: flex;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #8A8A8A;
+  }
+  
+  .card-body img {
+    padding: 0;
+  }
+  
+  .nominal {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .nominal h4 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding: 4px 0;
+  }
+  

@@ -1,0 +1,483 @@
+/* hero-section */
+.hero-section {
+    background: #f1f3ff;
+    padding-top: 120px;
+    position: relative;
+    /* height: 1200px; */
+  }
+  .hero-content {
+    padding: 90px 0;
+    padding-bottom: 2px;
+  }
+  .hero-content h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  .hero-content p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 75%;
+    margin-bottom: 15px;
+  }
+  .hero-content a {
+    background: #5cb85f;
+    border-color: #5cb85f;
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  .hero-thumbnail {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    bottom: -2px;
+  }
+  .hero-thumbnail img {
+    width: 100%;
+  }
+@media (max-width: 991px) {
+    .hero-section {
+        padding-top: 70px;
+      }
+      .hero-content {
+        padding: 30px 0;
+      }
+      .hero-thumbnail {
+        position: relative;
+        width: 100%;
+        right: auto;
+        bottom: auto;
+      }
+      .hero-content h1 {
+        font-size: 32px;
+      }
+    
+      .hero-content p {
+        max-width: 100%;
+      }
+}
+@media (min-width: 1600px) {
+    .hero-thumbnail {
+      width: 40%;
+    }
+  }
+/* end hero section */
+/* our service */
+.our_utama {
+    display: flex;
+    padding-top: 105px;
+}
+
+.our_kiri {
+    margin-left: 160px;
+}
+
+.our_kiri img {
+    width: 459px;
+    height: 428px;
+}
+
+.our_kanan {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.title-services {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 36vw;
+    margin-bottom: 24px;
+}
+
+.desc-services {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 32vw;
+    margin-bottom: 16px;
+}
+
+.our_kanan_konten {
+    display: flex;
+}
+
+.konten_kiri {
+    padding-right: 15px;
+}
+
+.konten_img {
+    margin-bottom: 18px;
+}
+
+.konten_kanan p {
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+@media (max-width: 768px){
+    /* Our Services */
+    .our_service {
+        width: 100%;
+    }
+
+    .our_utama {
+        display: flex;
+        flex-direction: column;
+        padding-top: 85px;
+    }
+
+    .our_kiri {
+        margin: auto;
+    }
+
+    .our_kiri img {
+        width: 252px;
+        height: 228px;
+    }
+
+    .our_kanan {
+        width: 100%;
+        padding: 12px;
+        padding-top: 25px;
+    }
+
+    .title-services {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .desc-services {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+}
+/* end ourservice */
+/* Why Us Section */
+.why {
+    padding-top: 90px;
+}
+
+.why_atas {
+    margin: 50px 110px;
+}
+
+.why_atas h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.why_atas p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.card_why_bawah {
+    overflow: hidden;
+    margin: 0.5em 6.9em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_itm {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    overflow: hidden;
+    width: 280px;
+    height: 210px;
+}
+
+.card_itm h2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 16px 0px;
+}
+
+.card_itm p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width : 768px) {
+     /* Why Us Section */
+     .why {
+        padding-top: 70px;
+        width: 100%;
+    }
+
+    .why_atas {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .card_why_bawah {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card_itm {
+        border: 1px solid #d0d0d0;
+        border-radius: 8px;
+        padding: 28px;
+        overflow: hidden;
+        width: 93.5%;
+        height: 200px;
+        align-self: center;
+    }
+
+    .card_itm p {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+}
+/* end why us */
+/* testimonial */
+.testimonial {
+    margin-top: 100px;
+}
+
+.testimonial .testi-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonial .item img {
+    width: 50% !important;
+}
+
+.testimonial .card {
+    background: #F1F3FF;
+    border: none;
+    padding: 50px 20px;
+}
+
+.testimonial .card-actor {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.testimonial .text-success {
+    color: #F9CC00 !important;
+    text-decoration: none;
+}
+
+.testimonial .card-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.testimonial .card-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* TESTIMONIAL */
+
+/* Custom Carousel */
+.btn-nav {
+    height: 32px;
+    line-height: 28px;
+    width: 32px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-nav:hover {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background-color: white !important;
+
+}
+
+/* Custom Carousel nav */
+
+/* endtestimonial */
+
+/* content mulai sewa */
+.mulai_sewa {
+    padding: 4em 6.8em 0em 6.8em;
+}
+
+.box {
+    /* height: 40vh; */
+    border-radius: 13px;
+    background-color: #0d28a6;
+    color: white;
+    padding-top: 60px;
+}
+
+.box h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.parag {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px ) {
+    .mulai_sewa {
+        padding: 12px;
+    }
+
+    .box {
+        height: 430px;
+        background-color: #0d28a6;
+        margin-top: 60px;
+        padding: 90px;
+    }
+
+    .box h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .parag {
+        padding-top: 15px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+}
+/* faq */
+.faq {
+    padding-top: 90px;
+}
+
+.utama {
+    display: flex;
+    padding: 0px 108px 0px 108px;
+}
+
+.faq_kiri {
+    width: 50%;
+}
+
+.faq_kiri h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq_kiri p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.faq_kanan {
+    width: 60.6%;
+}
+
+.card {
+    border: 1px solid #d4d4d4;
+    margin-bottom: 16px;
+}
+
+@media(max-width: 768px) {
+    .faq {
+        padding-top: 80px;
+    }
+
+    .utama {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 12px 0px 12px;
+    }
+
+    .faq_kiri h1 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .faq_kiri {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .faq_kiri h1 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .faq_kiri p {
+        font-weight: 300;
+        font-size: 13.6px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .faq_kanan {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 16px;
+    }
+
+}
+
+/* end faq */
+
