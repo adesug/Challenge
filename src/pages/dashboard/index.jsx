@@ -160,7 +160,7 @@ const Dashboard = () => {
                                                     natural lead-in to additional content. This content is a little bit
                                                     longer.</q>
                                             </p>
-                                            <h5 className="card-title">John Dee 32, Bromo</h5>
+                                            <h5 className="card-title" >John Dee 32, Bromo</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -256,7 +256,7 @@ const Dashboard = () => {
                     <div className="parag">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <Link className='btn btn-sm btn-success' to={`/FindCar`}>
+                    <Link className='btn btn-sm btn-success' to={`/FindCars`}>
                         Mulai Sewa Mobil
                     </Link>
                 </div>
